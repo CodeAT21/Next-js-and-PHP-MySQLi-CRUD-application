@@ -1,0 +1,81 @@
+.cols{
+  position: relative;
+  width: 700px;
+  margin: 67px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.table {
+  width: 100%;
+  border: 1px solid #d6d6d6;
+  border-collapse: collapse;
+  margin-top: 5px;
+}
+
+.th,
+.td {
+  padding: 16px 24px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.thead th {
+  background-color: #673ab7;
+  color: #fff;
+  width: 25%;
+}
+
+.tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+.tbody tr:nth-child(even) {
+  background-color: #eff7ff;
+}
+.delete {
+  background-color: red;
+  border: none;
+  padding: 7px 13px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 7px;
+  color: white;
+  line-height: normal;
+  text-decoration: none;
+}
+.addEmployee {
+  background-color: #673ab7;
+  padding: 10px 27px;
+  font-size: 22px;
+  margin-top: 17px;
+  outline: none;
+  border: 0;
+  border-radius: 7px;
+}
+.addEmployee a {
+  color: white;
+  text-decoration: none;
+}
+.update {
+  background-color: #2196f3;
+  border: none;
+  padding: 7px 13px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 7px;
+  color: white;
+  line-height: normal;
+  text-decoration: none;
+}
+.update a {
+  color: white;
+  text-decoration: none;
+}
+.addEmployeeCenter {
+  text-align: center;
+}
+.btn__cols{
+  display: flex;
+  column-gap: 17px;
+  padding: 16px 24px;
+}

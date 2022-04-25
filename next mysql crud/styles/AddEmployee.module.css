@@ -1,0 +1,26 @@
+.addform {
+  margin: 50px auto;
+  width: 800px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 8px 8px -4px #673ab7;
+  padding: 37px;
+}
+.input {
+  font-size: 20px;
+  text-align: left;
+  padding: 10px 10px !important;
+  margin: 10px auto;
+  max-width: 377px;
+  width: 100%;
+}
+.addform button { 
+  background-color: #673ab7;
+  padding: 10px 27px;
+  font-size: 22px;
+  margin-top: 17px;
+  outline: none;
+  border: 0;
+  border-radius: 7px;
+  color: white;
+}
